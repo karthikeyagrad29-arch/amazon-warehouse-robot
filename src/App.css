@@ -11,6 +11,15 @@ body {
   text-align: center;
 }
 
+.header-image {
+    display: block;
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    margin: 2rem auto 0;
+    border-radius: 8px;
+}
+
 .card-container {
     display: flex;
     gap: 1rem;
