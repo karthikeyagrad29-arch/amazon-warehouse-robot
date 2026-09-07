@@ -5,19 +5,64 @@ body {
 }
 
 .header {
-  background-color: navy;
-  color: white;
+  background-color: transparent;
+  color: inherit;
   padding: 3rem;
-  text-align: center;
+  text-align: left;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-label {
+  color: #000;
+}
+
+.brand-amazon {
+  color: #ff9900;
+}
+
+.learn-more {
+  color: #000;
+  text-decoration: underline;
+}
+
+.learn-more:hover,
+.learn-more:focus-visible {
+  color: #333;
+}
+
+.header h1 {
+  color: #000;
+  font-family: "ADLaM Display", sans-serif;
+}
+
+.header p {
+  color: #333;
+  font-family: Verdana, sans-serif;
 }
 
 .header-image {
-    display: block;
-    width: 100%;
-    max-width: 1100px;
-    height: auto;
-    margin: 2rem auto 0;
-    border-radius: 8px;
+  display: block;
+  box-sizing: border-box;
+  width: 109.84375%;
+  height: auto;
+  margin: 2rem -4.921875% 0;
+  border-radius: 18px;
+  border-color: #000000;
+  border: 4px solid;
+}
+
+.header-image-container::after {
+  display: block;
+  width: 109.84375%;
+  height: 2px;
+  margin: 10px -4.921875% 0;
+  background-color: #000;
+  content: "";
 }
 
 .card-container {
@@ -26,10 +71,28 @@ body {
 }
 
 .card {
-    flex: 1;
-    background-color: white;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px lightgray;
+  flex: 1;
+  background-color: transparent;
+  padding: 0 1rem 1rem;
+  border-radius: 10px;
+  box-shadow: none;
+  transform: translateY(-25px);
+}
 
+.card h2 {
+  color: #000;
+}
+
+.card p {
+  color: #333;
+
+}
+
+.card + .card::before {
+  display: block;
+  width: 109.84375%;
+  height: 2px;
+  margin: 0 -4.921875% 1rem;
+  background-color: #000;
+  content: "";
 }
