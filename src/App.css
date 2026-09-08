@@ -17,6 +17,11 @@ body {
   justify-content: space-between;
 }
 
+.header-links {
+  display: flex;
+  gap: 1rem;
+}
+
 .brand-label {
   color: #000;
 }
@@ -25,14 +30,90 @@ body {
   color: #ff9900;
 }
 
-.learn-more {
+.header-link,
+.back-home {
   color: #000;
   text-decoration: underline;
 }
 
-.learn-more:hover,
-.learn-more:focus-visible {
+.header-link:hover,
+.header-link:focus-visible,
+.back-home:hover,
+.back-home:focus-visible {
   color: #333;
+}
+
+.impacts-page {
+  padding: 3rem;
+  text-align: left;
+}
+
+.impacts-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.impacts-page h1 {
+  color: #000;
+  font-family: "ADLaM Display", sans-serif;
+  text-align: left;
+}
+
+.impacts-image {
+  display: block;
+  width: min(100%, 800px);
+  height: auto;
+  margin: calc(2rem - 80px) auto calc(2rem - 70px);
+  transform: scale(1.4, 0.8);
+  transform-origin: center;
+}
+
+.impact-headings {
+  text-align: center;
+}
+
+.impact-headings h2 {
+  color: #000;
+}
+
+.impact-headings h2:first-child {
+  margin-bottom: calc(0.83em - 10px);
+}
+
+.impact-headings h3 {
+  color: #444;
+  margin-top: 0;
+  text-align: left;
+}
+
+.negative-impact-heading {
+  margin-top: 0;
+  text-align: right !important;
+}
+
+.cultural-impact-copy {
+  width: 40%;
+  margin: 0 0 5px;
+  margin-left: 0;
+  color: #000;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.negative-impact-copy {
+  width: 40%;
+  margin: 0 0 5px;
+  margin-left: auto;
+  color: #000;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.cultural-impact-underline {
+  width: 380px;
+  height: 2px;
+  margin: 10px auto 20px;
+  background-color: #000;
 }
 
 .header h1 {

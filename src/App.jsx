@@ -1,8 +1,22 @@
+import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Card from "./components/Card";
+import Impacts from "./pages/Impacts";
 import "./App.css"
 
 function App() {
+  const [page, setPage] = useState(window.location.hash);
+
+  useEffect(() => {
+    const handleHashChange = () => setPage(window.location.hash);
+    window.addEventListener("hashchange", handleHashChange);
+    return () => window.removeEventListener("hashchange", handleHashChange);
+  }, []);
+
+  if (page === "#impacts") {
+    return <Impacts />;
+  }
+
   return (
     <div>
       <Header />

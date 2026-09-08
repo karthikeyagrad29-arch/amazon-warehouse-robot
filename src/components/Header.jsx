@@ -7,14 +7,17 @@ function Header() {
         <div className="brand-label">
           <span className="brand-amazon">Amazon</span> Warehouse robots
         </div>
-        <a
-          className="learn-more"
-          href="https://www.aboutamazon.com/news/operations/amazon-robotics-robots-fulfillment-center"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Learn More
-        </a>
+        <div className="header-links">
+          <a className="header-link" href="#impacts">Impacts</a>
+          <a
+            className="header-link"
+            href="https://www.aboutamazon.com/news/operations/amazon-robotics-robots-fulfillment-center"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Learn More
+          </a>
+        </div>
       </div>
       <h1>DeepFleet: AI that powers Amazon</h1>
 
