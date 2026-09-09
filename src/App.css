@@ -100,6 +100,39 @@ body {
   text-align: left;
 }
 
+.sequoia-image {
+  box-sizing: border-box;
+  float: right;
+  width: min(48%, 480px);
+  height: auto;
+  margin: 50px 0 10px 20px;
+  border: 4px solid #000;
+}
+
+.titan-image {
+  display: block;
+  float: right;
+  width: min(40%, 400px);
+  height: auto;
+  margin: 0 0 10px 20px;
+}
+
+.vulcan-stow-image {
+  display: block;
+  float: right;
+  width: min(40%, 400px);
+  height: auto;
+  margin: 0 0 10px 20px;
+}
+
+.sparrow-robot-image {
+  display: block;
+  float: left;
+  width: min(40%, 400px);
+  height: auto;
+  margin: 0 20px 10px 0;
+}
+
 .negative-impact-copy {
   width: 40%;
   margin: 0 0 5px;
@@ -109,7 +142,25 @@ body {
   text-align: left;
 }
 
+.vulcan-pick-image {
+  display: block;
+  float: left;
+  width: min(40%, 400px);
+  height: auto;
+  margin: 0 20px 10px 0;
+}
+
+.hercules-image {
+  box-sizing: border-box;
+  float: left;
+  width: min(50%, 500px);
+  height: auto;
+  margin: 135px 20px 10px 0;
+  border: 4px solid #000;
+}
+
 .cultural-impact-underline {
+  clear: both;
   width: 380px;
   height: 2px;
   margin: 10px auto 20px;
