@@ -1,10 +1,12 @@
+import TypingTitle from "../components/TypingTitle"
+
 function Solutions() {
 	return (
 		<main className="impacts-page">
 			<div className="impacts-top">
 				<a className="back-home" href="#home">Back to Home page</a>
 			</div>
-			<h1>Recommendations</h1>
+			<TypingTitle text="Recommendations" />
 			<section className="impact-headings">
 				<h2>Concern 1: Energy Usage Concern</h2>
 				<h3>Hypothesis</h3>

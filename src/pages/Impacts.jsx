@@ -5,6 +5,7 @@ import titanImage from "../assets/titan.png"
 import vulcanPickImage from "../assets/vulcan_pick.png"
 import vulcanStowImage from "../assets/vulcan_stow.png"
 import sparrowRobotImage from "../assets/sparrow_robot.png"
+import TypingTitle from "../components/TypingTitle"
 
 function Impacts() {
 	return (
@@ -12,7 +13,7 @@ function Impacts() {
 			<div className="impacts-top">
 				<a className="back-home" href="#home">Back to Home page</a>
 			</div>
-			<h1>Impacts</h1>
+			<TypingTitle text="Impacts" />
 			<img className="impacts-image" src={warehouseRobotImage} alt="Warehouse robot" />
 			<section className="impact-headings">
 				<h2>Cultural Impact</h2>
