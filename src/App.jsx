@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Card from "./components/Card";
 import Impacts from "./pages/Impacts";
+import Solutions from "./pages/Solutions";
 import "./App.css"
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
 
   if (page === "#impacts") {
     return <Impacts />;
+  }
+
+  if (page === "#recommendations") {
+    return <Solutions />;
   }
 
   return (

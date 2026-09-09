@@ -9,6 +9,7 @@ function Header() {
         </div>
         <div className="header-links">
           <a className="header-link" href="#impacts">Impacts</a>
+          <a className="header-link" href="#recommendations">Recommendations</a>
           <a
             className="header-link"
             href="https://www.aboutamazon.com/news/operations/amazon-robotics-robots-fulfillment-center"
